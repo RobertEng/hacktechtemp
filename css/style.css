@@ -1,0 +1,47 @@
+#homeLogo {
+	height: 350px;
+}
+
+
+body {
+	background-color: #F04D23;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 40px;
+	color: white;
+
+}
+
+#homeSlide {
+	background-image: url('/img/mainstreet_blur_dark.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center bottom;
+	
+	min-height: 100%;
+	padding-top: 40px; /* Little extra for navbar */
+	
+	position: relative; 	/* For banner */
+	padding-bottom: 200px; 	/* For banner */
+}
+
+
+#homeContent {
+	text-align: center;
+	display: block;
+}
+
+
+h1 {
+	margin-bottom: 5px;
+
+}
+
+h3 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+
+.slide {
+	width: 100%;
+}
